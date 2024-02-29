@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in/Signup</title>
+    <style>
+        body{
+            display: flex;
+            background-image: url("blurbg.webp");
+            background-size: cover;
+            align-items: center;
+            justify-content: center;
+            margin-top: 10%;
+        }
+        .loginform{
+            width: 700px;
+            height: 400px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+            
+        }
+        .login{
+            padding-left: 40px;
+            padding-top: 50px;
+            font-size: larger;
+            font-weight: bold;
+            height: 30px;
+            border-radius: 10px;
+        }
+        .reg{
+            margin-top: 50px;
+            display: flex;
+            justify-content: space-around;
+        }
+        #log{
+            background-color: rgba(255,0,0,0.8);
+            height: 40px;width: 90px;
+            border-radius: 10%;
+            font-weight: 800;
+        }
+        #regi{
+            background-color: burlywood;
+            height: 40px;width: 120px;
+            border-radius: 10%;
+            font-weight: 800;
+            text-decoration: none;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <form action="" class="loginform">
+        <div class="login">
+            <label for="phone no">Enter mobile no:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" name="number" id="phone no" placeholder="Enter your no">
+        </div>
+        <div class="login">
+            <label for="email">Enter your E-mail:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="email" name="mail" id="email" placeholder="Enter your E-mail">
+        </div>
+        <div class="login">
+            <label for="password">Enter Your Password:</label>
+            <input type="password" name="pass" id="password" placeholder="Enter your password">
+        </div><br><hr>
+        <div class="reg">
+            <button id="log">Log In</button>
+            <button id="regi"><a href="register.html" id="regi">Register Here</a></button>
+        </div>
+
+    </form>
+</body>
+</html>

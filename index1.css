@@ -1,0 +1,52 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav{
+    height: 85px;
+    display: flex;
+    margin-left: 0px;
+}
+#home{
+    margin-left: 60px;
+    line-height: 100px;
+    text-align: center;
+}
+#about,#management,#login,#resources{
+    position: relative;
+    margin-left: 40px;
+    line-height: 100px;
+    text-align: center;   
+}
+a img{
+    margin-left: 100px;
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+div a:active{
+    border-bottom: 2px solid black;
+    color: black;
+    font: 900;
+}
+.heading h1{
+    margin-left: 100px;
+    padding-top: 15px;
+    color: green;
+    font-weight: bolder;
+}
+.heading p{
+    margin-left: 100px;
+}
+input{
+    margin: 100px;
+
+}
+#search{
+    border-radius: 20px;
+    background-color: green;
+    height: 40px;
+    width: 200px;
+}

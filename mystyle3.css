@@ -1,0 +1,63 @@
+ody{
+    background-image: url("blurbg.webp");
+    background-size: cover;
+}
+form{
+    width: 1000px;
+    background-color: whitesmoke;
+    margin-left: 250px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+.user_name{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold; 
+    padding-top: 30px;   
+}
+.user_address{
+    margin-left: 85px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.mail{
+    margin-left: 85px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.password1,.password2{
+    margin-left: 85px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.gender{
+    margin-left: 85px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.cuisines{
+    margin-top: 30px;
+    margin-left: 85px;
+}
+#cusine{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#submit{
+    margin-top: 30px;
+    margin-left: 300px;
+    background-color: red;
+    font-size: larger;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 30px;
+}
